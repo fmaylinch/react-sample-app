@@ -1,7 +1,13 @@
 import React from 'react'
+import { HashRouter, Route } from 'react-router-dom'
+import Landing from './Landing'
 
-const App = () => <Title text='This is a title'/>
-
-const Title = (props) => <h1 className='title'>{props.text}</h1>
+const App = () => (
+  <HashRouter>
+    <div>
+      <Route exact path='/' component={Landing} />
+    </div>
+  </HashRouter>
+)
 
 export default App
