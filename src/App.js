@@ -1,10 +1,10 @@
 import React from 'react';
 
-const App = function () {
+const App = () => {
   return <Title text="This is a title" color="forestgreen"/>
 }
 
-const Title = function (props) {
+const Title = (props) => {
   return <h1 style={{color: props.color}}>{props.text}</h1>
 }
 
