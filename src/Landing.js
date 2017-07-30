@@ -8,6 +8,9 @@ const Landing = (props) => (
     <p>
       <Link to='/about'>About me</Link>
     </p>
+    <p>
+      <Link to='/broken'>Broken link</Link>
+    </p>
   </div>
 )
 
