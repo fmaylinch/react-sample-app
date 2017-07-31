@@ -1,5 +1,6 @@
 [
-  {"title": "Memento", "genre": "thriller", "director": "Christopher Nolan"},
-  {"title": "Top Secret", "genre": "comedy"},
-  {"title": "Spellbound", "genre": "documentary"}
+  {"id":1, "title": "Memento", "genre": "thriller"},
+  {"id":2, "title": "Top Secret", "genre": "comedy"},
+  {"id":3, "title": "Spellbound", "genre": "documentary"},
+  {"id":4, "title": "Top Gun", "genre": "action"}
 ]
