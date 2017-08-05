@@ -21,7 +21,7 @@ class Search extends Component {
         { shows
           .filter(show => show.name.toLowerCase().indexOf(this.state.searchTerm) >= 0)
           .map(show =>
-              <MovieCard show={show} />
+              <MovieCard key={show.id} show={show} />
           )
         }
       </div>
