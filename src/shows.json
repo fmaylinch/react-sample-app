@@ -1,0 +1,50 @@
+[
+  {
+    "original_name": "Black Mirror",
+    "id": 42009,
+    "name": "Black Mirror",
+    "vote_count": 416,
+    "vote_average": 8.19,
+    "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+    "first_air_date": "2011-12-04",
+    "popularity": 10.93394,
+    "original_language": "en",
+    "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg"
+  },
+  {
+    "original_name": "Game of Thrones",
+    "id": 1399,
+    "name": "Game of Thrones",
+    "vote_count": 3091,
+    "vote_average": 8.06,
+    "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+    "first_air_date": "2011-04-17",
+    "popularity": 111.122619,
+    "original_language": "en",
+    "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg"
+  },
+  {
+    "original_name": "Orphan Black",
+    "id": 56296,
+    "name": "Orphan Black",
+    "vote_count": 293,
+    "vote_average": 7.51,
+    "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+    "first_air_date": "2013-03-30",
+    "popularity": 18.179143,
+    "original_language": "en",
+    "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg"
+  },
+  {
+    "original_name": "Westworld",
+    "id": 63247,
+    "name": "Westworld",
+    "vote_count": 821,
+    "vote_average": 8.03,
+    "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+    "first_air_date": "2016-10-02",
+    "popularity": 13.654394,
+    "original_language": "en",
+    "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg"
+  }
+]
