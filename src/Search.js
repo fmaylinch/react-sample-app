@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Search.css'
 import shows from './shows.json'
 import MovieCard from './MovieCard'
 
@@ -12,14 +13,18 @@ class Search extends Component {
 
   render() {
     return (
-      <div>
-        <h1 className="title">Shows</h1>
+      <div className="search">
+        <h1>Shows</h1>
         <input type="text" placeholder="Search"
           value={this.state.searchTerm} onChange={this.performSearch} />
+        <div>
         { shows
           .filter(show => show.name.toLowerCase().indexOf(this.state.searchTerm) >= 0)
-          .map(show => <MovieCard show={show} />)
+          .map(show =>
+              <MovieCard show={show} />
+          )
         }
+      </div>
       </div>
     )
   }

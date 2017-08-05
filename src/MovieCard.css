@@ -1,0 +1,16 @@
+
+.movie-card {
+  display: inline-block;
+  background-color: #000;
+  margin: 10px;
+  color: lightgray;
+}
+
+.movie-card > h1 {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.movie-card > p {
+  text-align: center;
+}
