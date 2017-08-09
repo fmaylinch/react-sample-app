@@ -18,13 +18,13 @@ class Search extends Component {
         <input type="text" placeholder="Search"
           value={this.state.searchTerm} onChange={this.performSearch} />
         <div>
-        { shows
-          .filter(show => show.name.toLowerCase().indexOf(this.state.searchTerm) >= 0)
-          .map(show =>
+          { shows
+            .filter(show => show.name.toLowerCase().indexOf(this.state.searchTerm) >= 0)
+            .map(show =>
               <MovieCard key={show.id} show={show} />
-          )
-        }
-      </div>
+            )
+          }
+        </div>
       </div>
     )
   }
