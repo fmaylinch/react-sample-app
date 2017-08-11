@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="search"
+>
+  <h1>
+    Shows
+  </h1>
+  <input
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+  <div>
+    <div
+      className="movie-card"
+    >
+      <h1>
+        Black Mirror
+      </h1>
+      <img
+        alt="Black Mirror"
+        src="http://image.tmdb.org/t/p/w185/cn150zzI0qCyM1o19xNJiVir0v.jpg"
+      />
+      <p>
+        Score: 
+        8.19
+      </p>
+    </div>
+    <div
+      className="movie-card"
+    >
+      <h1>
+        Game of Thrones
+      </h1>
+      <img
+        alt="Game of Thrones"
+        src="http://image.tmdb.org/t/p/w185/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg"
+      />
+      <p>
+        Score: 
+        8.06
+      </p>
+    </div>
+    <div
+      className="movie-card"
+    >
+      <h1>
+        Orphan Black
+      </h1>
+      <img
+        alt="Orphan Black"
+        src="http://image.tmdb.org/t/p/w185/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg"
+      />
+      <p>
+        Score: 
+        7.51
+      </p>
+    </div>
+    <div
+      className="movie-card"
+    >
+      <h1>
+        Westworld
+      </h1>
+      <img
+        alt="Westworld"
+        src="http://image.tmdb.org/t/p/w185/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg"
+      />
+      <p>
+        Score: 
+        8.03
+      </p>
+    </div>
+  </div>
+</div>
+`;
