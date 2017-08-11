@@ -1,5 +1,763 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Search displays the correct number of results (unfiltered) 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="search"
+>
+    <h1>
+        Shows
+    </h1>
+    <input
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+        value=""
+    />
+    <div>
+        <MovieCard
+            show={
+                Object {
+                    "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+                    "first_air_date": "2011-12-04",
+                    "id": 42009,
+                    "name": "Black Mirror",
+                    "original_language": "en",
+                    "original_name": "Black Mirror",
+                    "popularity": 10.93394,
+                    "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+                    "vote_average": 8.19,
+                    "vote_count": 416,
+                  }
+            }
+        />
+        <MovieCard
+            show={
+                Object {
+                    "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+                    "first_air_date": "2011-04-17",
+                    "id": 1399,
+                    "name": "Game of Thrones",
+                    "original_language": "en",
+                    "original_name": "Game of Thrones",
+                    "popularity": 111.122619,
+                    "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+                    "vote_average": 8.06,
+                    "vote_count": 3091,
+                  }
+            }
+        />
+        <MovieCard
+            show={
+                Object {
+                    "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+                    "first_air_date": "2013-03-30",
+                    "id": 56296,
+                    "name": "Orphan Black",
+                    "original_language": "en",
+                    "original_name": "Orphan Black",
+                    "popularity": 18.179143,
+                    "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+                    "vote_average": 7.51,
+                    "vote_count": 293,
+                  }
+            }
+        />
+        <MovieCard
+            show={
+                Object {
+                    "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+                    "first_air_date": "2016-10-02",
+                    "id": 63247,
+                    "name": "Westworld",
+                    "original_language": "en",
+                    "original_name": "Westworld",
+                    "popularity": 13.654394,
+                    "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+                    "vote_average": 8.03,
+                    "vote_count": 821,
+                  }
+            }
+        />
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="search"
+>
+      <h1>
+            Shows
+      </h1>
+      <input
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+            value=""
+      />
+      <div>
+            <MovieCard
+                  show={
+                        Object {
+                              "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+                              "first_air_date": "2011-12-04",
+                              "id": 42009,
+                              "name": "Black Mirror",
+                              "original_language": "en",
+                              "original_name": "Black Mirror",
+                              "popularity": 10.93394,
+                              "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+                              "vote_average": 8.19,
+                              "vote_count": 416,
+                            }
+                  }
+            />
+            <MovieCard
+                  show={
+                        Object {
+                              "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+                              "first_air_date": "2011-04-17",
+                              "id": 1399,
+                              "name": "Game of Thrones",
+                              "original_language": "en",
+                              "original_name": "Game of Thrones",
+                              "popularity": 111.122619,
+                              "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+                              "vote_average": 8.06,
+                              "vote_count": 3091,
+                            }
+                  }
+            />
+            <MovieCard
+                  show={
+                        Object {
+                              "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+                              "first_air_date": "2013-03-30",
+                              "id": 56296,
+                              "name": "Orphan Black",
+                              "original_language": "en",
+                              "original_name": "Orphan Black",
+                              "popularity": 18.179143,
+                              "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+                              "vote_average": 7.51,
+                              "vote_count": 293,
+                            }
+                  }
+            />
+            <MovieCard
+                  show={
+                        Object {
+                              "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+                              "first_air_date": "2016-10-02",
+                              "id": 63247,
+                              "name": "Westworld",
+                              "original_language": "en",
+                              "original_name": "Westworld",
+                              "popularity": 13.654394,
+                              "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+                              "vote_average": 8.03,
+                              "vote_count": 821,
+                            }
+                  }
+            />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Search />,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Search {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "performSearch": [Function],
+        "props": Object {},
+        "refs": Object {},
+        "state": Object {
+          "searchTerm": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="search"
+>
+          <h1>
+                    Shows
+          </h1>
+          <input
+                    onChange={[Function]}
+                    placeholder="Search"
+                    type="text"
+                    value=""
+          />
+          <div>
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+                                                  "first_air_date": "2011-12-04",
+                                                  "id": 42009,
+                                                  "name": "Black Mirror",
+                                                  "original_language": "en",
+                                                  "original_name": "Black Mirror",
+                                                  "popularity": 10.93394,
+                                                  "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+                                                  "vote_average": 8.19,
+                                                  "vote_count": 416,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+                                                  "first_air_date": "2011-04-17",
+                                                  "id": 1399,
+                                                  "name": "Game of Thrones",
+                                                  "original_language": "en",
+                                                  "original_name": "Game of Thrones",
+                                                  "popularity": 111.122619,
+                                                  "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+                                                  "vote_average": 8.06,
+                                                  "vote_count": 3091,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+                                                  "first_air_date": "2013-03-30",
+                                                  "id": 56296,
+                                                  "name": "Orphan Black",
+                                                  "original_language": "en",
+                                                  "original_name": "Orphan Black",
+                                                  "popularity": 18.179143,
+                                                  "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+                                                  "vote_average": 7.51,
+                                                  "vote_count": 293,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+                                                  "first_air_date": "2016-10-02",
+                                                  "id": 63247,
+                                                  "name": "Westworld",
+                                                  "original_language": "en",
+                                                  "original_name": "Westworld",
+                                                  "popularity": 13.654394,
+                                                  "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+                                                  "vote_average": 8.03,
+                                                  "vote_count": 821,
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div
+          className="search"
+>
+          <h1>
+                    Shows
+          </h1>
+          <input
+                    onChange={[Function]}
+                    placeholder="Search"
+                    type="text"
+                    value=""
+          />
+          <div>
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+                                                  "first_air_date": "2011-12-04",
+                                                  "id": 42009,
+                                                  "name": "Black Mirror",
+                                                  "original_language": "en",
+                                                  "original_name": "Black Mirror",
+                                                  "popularity": 10.93394,
+                                                  "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+                                                  "vote_average": 8.19,
+                                                  "vote_count": 416,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+                                                  "first_air_date": "2011-04-17",
+                                                  "id": 1399,
+                                                  "name": "Game of Thrones",
+                                                  "original_language": "en",
+                                                  "original_name": "Game of Thrones",
+                                                  "popularity": 111.122619,
+                                                  "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+                                                  "vote_average": 8.06,
+                                                  "vote_count": 3091,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+                                                  "first_air_date": "2013-03-30",
+                                                  "id": 56296,
+                                                  "name": "Orphan Black",
+                                                  "original_language": "en",
+                                                  "original_name": "Orphan Black",
+                                                  "popularity": 18.179143,
+                                                  "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+                                                  "vote_average": 7.51,
+                                                  "vote_count": 293,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+                                                  "first_air_date": "2016-10-02",
+                                                  "id": 63247,
+                                                  "name": "Westworld",
+                                                  "original_language": "en",
+                                                  "original_name": "Westworld",
+                                                  "popularity": 13.654394,
+                                                  "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+                                                  "vote_average": 8.03,
+                                                  "vote_count": 821,
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Search />,
+}
+`;
+
+exports[`Search renders correctly (shallow) 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="search"
+>
+    <h1>
+        Shows
+    </h1>
+    <input
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+        value=""
+    />
+    <div>
+        <MovieCard
+            show={
+                Object {
+                    "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+                    "first_air_date": "2011-12-04",
+                    "id": 42009,
+                    "name": "Black Mirror",
+                    "original_language": "en",
+                    "original_name": "Black Mirror",
+                    "popularity": 10.93394,
+                    "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+                    "vote_average": 8.19,
+                    "vote_count": 416,
+                  }
+            }
+        />
+        <MovieCard
+            show={
+                Object {
+                    "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+                    "first_air_date": "2011-04-17",
+                    "id": 1399,
+                    "name": "Game of Thrones",
+                    "original_language": "en",
+                    "original_name": "Game of Thrones",
+                    "popularity": 111.122619,
+                    "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+                    "vote_average": 8.06,
+                    "vote_count": 3091,
+                  }
+            }
+        />
+        <MovieCard
+            show={
+                Object {
+                    "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+                    "first_air_date": "2013-03-30",
+                    "id": 56296,
+                    "name": "Orphan Black",
+                    "original_language": "en",
+                    "original_name": "Orphan Black",
+                    "popularity": 18.179143,
+                    "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+                    "vote_average": 7.51,
+                    "vote_count": 293,
+                  }
+            }
+        />
+        <MovieCard
+            show={
+                Object {
+                    "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+                    "first_air_date": "2016-10-02",
+                    "id": 63247,
+                    "name": "Westworld",
+                    "original_language": "en",
+                    "original_name": "Westworld",
+                    "popularity": 13.654394,
+                    "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+                    "vote_average": 8.03,
+                    "vote_count": 821,
+                  }
+            }
+        />
+    </div>
+</div>,
+  "nodes": Array [
+    <div
+      className="search"
+>
+      <h1>
+            Shows
+      </h1>
+      <input
+            onChange={[Function]}
+            placeholder="Search"
+            type="text"
+            value=""
+      />
+      <div>
+            <MovieCard
+                  show={
+                        Object {
+                              "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+                              "first_air_date": "2011-12-04",
+                              "id": 42009,
+                              "name": "Black Mirror",
+                              "original_language": "en",
+                              "original_name": "Black Mirror",
+                              "popularity": 10.93394,
+                              "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+                              "vote_average": 8.19,
+                              "vote_count": 416,
+                            }
+                  }
+            />
+            <MovieCard
+                  show={
+                        Object {
+                              "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+                              "first_air_date": "2011-04-17",
+                              "id": 1399,
+                              "name": "Game of Thrones",
+                              "original_language": "en",
+                              "original_name": "Game of Thrones",
+                              "popularity": 111.122619,
+                              "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+                              "vote_average": 8.06,
+                              "vote_count": 3091,
+                            }
+                  }
+            />
+            <MovieCard
+                  show={
+                        Object {
+                              "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+                              "first_air_date": "2013-03-30",
+                              "id": 56296,
+                              "name": "Orphan Black",
+                              "original_language": "en",
+                              "original_name": "Orphan Black",
+                              "popularity": 18.179143,
+                              "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+                              "vote_average": 7.51,
+                              "vote_count": 293,
+                            }
+                  }
+            />
+            <MovieCard
+                  show={
+                        Object {
+                              "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+                              "first_air_date": "2016-10-02",
+                              "id": 63247,
+                              "name": "Westworld",
+                              "original_language": "en",
+                              "original_name": "Westworld",
+                              "popularity": 13.654394,
+                              "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+                              "vote_average": 8.03,
+                              "vote_count": 821,
+                            }
+                  }
+            />
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Search />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Search {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "performSearch": [Function],
+        "props": Object {},
+        "refs": Object {},
+        "state": Object {
+          "searchTerm": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="search"
+>
+          <h1>
+                    Shows
+          </h1>
+          <input
+                    onChange={[Function]}
+                    placeholder="Search"
+                    type="text"
+                    value=""
+          />
+          <div>
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+                                                  "first_air_date": "2011-12-04",
+                                                  "id": 42009,
+                                                  "name": "Black Mirror",
+                                                  "original_language": "en",
+                                                  "original_name": "Black Mirror",
+                                                  "popularity": 10.93394,
+                                                  "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+                                                  "vote_average": 8.19,
+                                                  "vote_count": 416,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+                                                  "first_air_date": "2011-04-17",
+                                                  "id": 1399,
+                                                  "name": "Game of Thrones",
+                                                  "original_language": "en",
+                                                  "original_name": "Game of Thrones",
+                                                  "popularity": 111.122619,
+                                                  "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+                                                  "vote_average": 8.06,
+                                                  "vote_count": 3091,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+                                                  "first_air_date": "2013-03-30",
+                                                  "id": 56296,
+                                                  "name": "Orphan Black",
+                                                  "original_language": "en",
+                                                  "original_name": "Orphan Black",
+                                                  "popularity": 18.179143,
+                                                  "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+                                                  "vote_average": 7.51,
+                                                  "vote_count": 293,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+                                                  "first_air_date": "2016-10-02",
+                                                  "id": 63247,
+                                                  "name": "Westworld",
+                                                  "original_language": "en",
+                                                  "original_name": "Westworld",
+                                                  "popularity": 13.654394,
+                                                  "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+                                                  "vote_average": 8.03,
+                                                  "vote_count": 821,
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="search"
+>
+          <h1>
+                    Shows
+          </h1>
+          <input
+                    onChange={[Function]}
+                    placeholder="Search"
+                    type="text"
+                    value=""
+          />
+          <div>
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+                                                  "first_air_date": "2011-12-04",
+                                                  "id": 42009,
+                                                  "name": "Black Mirror",
+                                                  "original_language": "en",
+                                                  "original_name": "Black Mirror",
+                                                  "popularity": 10.93394,
+                                                  "poster_path": "/cn150zzI0qCyM1o19xNJiVir0v.jpg",
+                                                  "vote_average": 8.19,
+                                                  "vote_count": 416,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+                                                  "first_air_date": "2011-04-17",
+                                                  "id": 1399,
+                                                  "name": "Game of Thrones",
+                                                  "original_language": "en",
+                                                  "original_name": "Game of Thrones",
+                                                  "popularity": 111.122619,
+                                                  "poster_path": "/gwPSoYUHAKmdyVywgLpKKA4BjRr.jpg",
+                                                  "vote_average": 8.06,
+                                                  "vote_count": 3091,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+                                                  "first_air_date": "2013-03-30",
+                                                  "id": 56296,
+                                                  "name": "Orphan Black",
+                                                  "original_language": "en",
+                                                  "original_name": "Orphan Black",
+                                                  "popularity": 18.179143,
+                                                  "poster_path": "/uh2qyb07AUcUKM5CRukNnv3y4r4.jpg",
+                                                  "vote_average": 7.51,
+                                                  "vote_count": 293,
+                                                }
+                              }
+                    />
+                    <MovieCard
+                              show={
+                                        Object {
+                                                  "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+                                                  "first_air_date": "2016-10-02",
+                                                  "id": 63247,
+                                                  "name": "Westworld",
+                                                  "original_language": "en",
+                                                  "original_name": "Westworld",
+                                                  "popularity": 13.654394,
+                                                  "poster_path": "/x2WKIbiwhLoWgLFbT2I0Gwq8U1J.jpg",
+                                                  "vote_average": 8.03,
+                                                  "vote_count": 821,
+                                                }
+                              }
+                    />
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Search />,
+}
+`;
+
 exports[`renders correctly (shallow) 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
