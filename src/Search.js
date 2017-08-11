@@ -1,3 +1,5 @@
+// @flow
+
 import React, { Component } from 'react'
 import './Search.css'
 import shows from './shows.json'
@@ -7,8 +9,13 @@ class Search extends Component {
 
   state = { searchTerm: '' }
 
-  performSearch = (event) => {
-    this.setState({ searchTerm: event.target.value })
+  // Another option, more succint: (event: Event & {target: HTMLInputElement})
+  performSearch = (event: Event) => {
+    if (event.target instanceof HTMLInputElement) {
+      this.setState({ searchTerm: event.target.value })
+    } else {
+      throw new Error("Unexpected event.target type!")
+    }
   }
 
   render() {
