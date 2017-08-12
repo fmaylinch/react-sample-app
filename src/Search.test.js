@@ -1,3 +1,8 @@
+// @flow
+
+// To enable flow, install flow-typed: yarn add flow-typed
+// then jest types: node_modules/.bin/flow-typed install jest@20.0.4
+
 import React from 'react';
 import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
