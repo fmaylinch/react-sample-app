@@ -1,5 +1,19 @@
 [
   {
+  "original_name": "13 Reasons Why",
+  "id": 66788,
+  "name": "13 Reasons Why",
+  "vote_count": 293,
+  "vote_average": 7.32,
+  "poster_path": "/gpULvrgvq1Qidu8EpWevrRUfVhw.jpg",
+  "first_air_date": "2017-03-31",
+  "popularity": 6.795533,
+  "original_language": "en",
+  "backdrop_path": "/sZb21d6EWKAEKZ9GrLQeMwX4cWN.jpg",
+  "overview": "After a teenage girl's perplexing suicide, a classmate receives a series of tapes that unravel the mystery of her tragic choice.",
+  "origin_country": [ "US" ]
+  },
+  {
     "original_name": "Black Mirror",
     "id": 42009,
     "name": "Black Mirror",
@@ -9,7 +23,9 @@
     "first_air_date": "2011-12-04",
     "popularity": 10.93394,
     "original_language": "en",
-    "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg"
+    "backdrop_path": "/6Bfw44IrVCfMq7gqu19G8KbgSQW.jpg",
+    "overview": "A contemporary British re-working of The Twilight Zone with stories that tap into the collective unease about our modern world. \n\nOver the last ten years, technology has transformed almost every aspect of our lives before we've had time to stop and question it. In every home; on every desk; in every palm - a plasma screen; a monitor; a smartphone - a black mirror of our 21st Century existence.",
+    "origin_country": [ "GB" ]
   },
   {
     "original_name": "Game of Thrones",
@@ -21,7 +37,9 @@
     "first_air_date": "2011-04-17",
     "popularity": 111.122619,
     "original_language": "en",
-    "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg"
+    "backdrop_path": "/aKz3lXU71wqdslC1IYRC3yHD6yw.jpg",
+    "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+    "origin_country": [ "US" ]
   },
   {
     "original_name": "Orphan Black",
@@ -33,7 +51,9 @@
     "first_air_date": "2013-03-30",
     "popularity": 18.179143,
     "original_language": "en",
-    "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg"
+    "backdrop_path": "/kGz8HOijXKv90PMI8d6cmGKxd9m.jpg",
+    "overview": "A streetwise hustler is pulled into a compelling conspiracy after witnessing the suicide of a girl who looks just like her.",
+    "origin_country": [ "US", "CA" ]
   },
   {
     "original_name": "Westworld",
@@ -45,6 +65,8 @@
     "first_air_date": "2016-10-02",
     "popularity": 13.654394,
     "original_language": "en",
-    "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg"
+    "backdrop_path": "/uRojJ77wDQdzzVvP1VDjnvCWiDb.jpg",
+    "overview": "A dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
+    "origin_country": [ "US" ]
   }
 ]
