@@ -9,13 +9,12 @@ class Search extends Component {
 
   state = { searchTerm: '' }
 
-  // Another option, more succint: (event: Event & {target: HTMLInputElement})
-  performSearch = (event: Event) => {
-    if (event.target instanceof HTMLInputElement) {
-      this.setState({ searchTerm: event.target.value })
-    } else {
-      throw new Error("Unexpected event.target type!")
-    }
+  // If we just declare `event: Event` and then check
+  // `if (event.target instanceof HTMLInputElement)`
+  // it will fail in Search.test.js because there we're actually
+  // passing a fake event, not a HTMLInputElement.
+  performSearch = (event: Event & {target: HTMLInputElement}) => {
+    this.setState({ searchTerm: event.target.value })
   }
 
   render() {
