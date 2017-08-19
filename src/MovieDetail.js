@@ -1,6 +1,8 @@
+// @flow
+
 import React from 'react'
 
-const MovieDetail = (props) => (
+const MovieDetail = (props: {show: Movie}) => (
   <div>
     <h1>{props.show.name}</h1>
     <p>{props.show.overview}</p>
