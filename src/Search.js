@@ -1,6 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './Search.css'
 import shows from './shows.json'
 import MovieCard from './MovieCard'
@@ -18,8 +19,10 @@ class Search extends Component {
   }
 
   render() {
+
     return (
       <div className="search">
+        <Link to='/'>Back to home</Link>
         <h1>Shows</h1>
         <input type="text" placeholder="Search"
           value={this.state.searchTerm} onChange={this.performSearch} />
